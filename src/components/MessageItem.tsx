@@ -143,7 +143,12 @@ export default (props: Props) => {
           .replace(
             /OpenAI/g,
             `<a href="https://www.openai.com" style="border-bottom:0">${openai}</a>`
-          )}
+          ).replace(
+            /ekancha/g,
+            `<a href="https://afdian.net/a/ekancha">取消限制</a>`
+          )
+                  
+                  }
       />
       <MessageAction
         del={del}
