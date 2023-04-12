@@ -137,6 +137,10 @@ export default (props: Props) => {
             `<a href="http://vercel.com/?utm_source=busiyi&utm_campaign=oss" style="border-bottom:0">${vercel}</a>`
           )
           .replace(
+            /ekancha/g,
+            `<a href="https://afdian.net/a/ekancha">取消限制</a>`
+          )
+          .replace(
             /OpenAI/g,
             `<a href="https://www.openai.com" style="border-bottom:0">${openai}</a>`
           )}
